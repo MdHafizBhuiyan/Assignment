@@ -1,0 +1,145 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: rgb(37, 32, 32);
+  color: rgb(255, 255, 255);
+}
+.text-color{
+  color:rgb(154, 13, 13);
+}
+h1{
+  cursor:pointer;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.container{
+  margin: 30px;
+}
+.for-image{
+  background-image: url(https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c100e1e4-63a9-4adc-9794-202888321104.jpg);
+  padding: 2px;
+}
+.text-style{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-style{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:20px;
+}
+a:hover{
+  color: rgb(228, 96, 48);
+}
+.btn{
+  background-color: rgb(210, 33, 17);
+  padding:15px 50px;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(122, 14, 224); 
+  color:rgb(0, 0, 0); 
+}
+#hero{
+  display: flex;
+  width:100%;
+  height: auto;
+}
+.hero-image{
+  width: 640px;
+  height:400px;
+}
+.right-text-color{
+  color:rgb(190, 146, 93);
+}
+.btn2{
+  padding:10px;
+  background-color: rgb(190, 146, 93);
+  cursor: pointer;
+  border: none;
+}
+.hero-left{
+    width: 50%;
+}
+.hero-right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(72, 72, 73);
+  height:400px;
+}
+.text{
+  margin:30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.border{
+  display:flex;
+  background-color: rgb(190, 146, 93);
+  border-radius: 30px;
+  margin:30px 100px;
+  padding:20px 0px;
+}
+.border2{
+  display:flex;
+  background-color: rgb(190, 146, 93);
+  border-radius: 30px;
+  margin:30px 100px;
+  padding:20px 0px;
+}
+
+.logo-image{
+  border-radius: 50%;
+  height:150px;
+  width:150px;
+  padding:25px;
+  margin: 5px;
+}
+#footer{
+  margin-top: 30px;
+  background-color: rgb(96, 94, 94);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bxs-home-heart{
+ font-size: 50px;
+ margin-bottom: 5px;
+ padding:5px;
+}
+.bxs-phone-call{
+  font-size: 50px;
+ margin-bottom: 5px;
+}
+.bx-envelope{
+  font-size: 50px;
+ margin-bottom: 5px;
+ padding:5px;
+}
+.ftr{
+  margin-left:10px;
+  font-size:25px;
+}
+.ftrp{
+  line-height: 3;
+  font-size: small;
+}
