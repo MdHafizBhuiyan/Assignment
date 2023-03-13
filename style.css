@@ -143,3 +143,6 @@ a:hover{
   line-height: 3;
   font-size: small;
 }
+h1, p, a, button, h5{
+  font-family: 'Poppins', sans-serif;
+}
